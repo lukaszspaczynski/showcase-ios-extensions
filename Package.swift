@@ -14,8 +14,6 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.2.0")),
         .package(url: "https://github.com/RxSwiftCommunity/RxSwiftExt.git", .upToNextMajor(from: "6.1.0")),
-        .package(url: "https://github.com/pixeldock/RxAppState.git", .upToNextMajor(from: "1.7.1")),
-        .package(url: "https://github.com/RxSwiftCommunity/Action.git", .upToNextMajor(from: "5.0.0")),
         .package(url: "https://github.com/Quick/Nimble.git", .upToNextMajor(from: "9.2.1"))
     ],
     targets: [
@@ -24,9 +22,7 @@ let package = Package(
             dependencies: [
                 .product(name: "RxSwift", package: "RxSwift"),
                 .product(name: "RxCocoa", package: "RxSwift"),
-                "RxSwiftExt",
-                "RxAppState",
-                "Action"
+                "RxSwiftExt"
             ]),
         .testTarget(
             name: "ShowcaseExtensionsTests",
@@ -37,8 +33,6 @@ let package = Package(
                 .product(name: "RxBlocking", package: "RxSwift"),
                 .product(name: "RxTest", package: "RxSwift"),
                 "RxSwiftExt",
-                "RxAppState",
-                "Action",
                 "Nimble"
             ]),
     ]

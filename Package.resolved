@@ -2,15 +2,6 @@
   "object": {
     "pins": [
       {
-        "package": "Action",
-        "repositoryURL": "https://github.com/RxSwiftCommunity/Action.git",
-        "state": {
-          "branch": null,
-          "revision": "55f5da064fd66cb09acde22cbbb744fe7f6355aa",
-          "version": "5.0.0"
-        }
-      },
-      {
         "package": "CwlCatchException",
         "repositoryURL": "https://github.com/mattgallagher/CwlCatchException.git",
         "state": {
@@ -35,15 +26,6 @@
           "branch": null,
           "revision": "c93f16c25af5770f0d3e6af27c9634640946b068",
           "version": "9.2.1"
-        }
-      },
-      {
-        "package": "RxAppState",
-        "repositoryURL": "https://github.com/pixeldock/RxAppState.git",
-        "state": {
-          "branch": null,
-          "revision": "956f438ea16481c1bd9a8ca3bc169af7435aaf0b",
-          "version": "1.7.1"
         }
       },
       {
