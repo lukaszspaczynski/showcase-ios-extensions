@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "ShowcaseExtensions",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v13), .macOS(.v10_11)],
     products: [
         .library(
             name: "ShowcaseExtensions",
